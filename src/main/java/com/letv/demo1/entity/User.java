@@ -7,6 +7,15 @@ public class User {
     private String username;
     private String address;
     private int age;
+    private String school;
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
+    }
 
     public String getUsername() {
         return username;
